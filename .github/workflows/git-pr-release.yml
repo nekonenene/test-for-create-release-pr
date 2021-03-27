@@ -20,3 +20,4 @@ jobs:
           GIT_PR_RELEASE_BRANCH_PRODUCTION: main
           GIT_PR_RELEASE_BRANCH_STAGING: develop
         run: git-pr-release --no-fetch
+        continue-on-error: true
